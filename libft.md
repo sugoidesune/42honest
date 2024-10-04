@@ -1,7 +1,5 @@
 Frequent Reasons to fail the project:
 
-Calloc - when nmemb or size is 0, the function returned NULL instead of malloc(0) (do not trust the manual)
-
 | Reason                                                                                                      | Failcount |
 | ----------------------------------------------------------------------------------------------------------- | --------- |
 | Calloc - when nmemb or size is 0, the function returned NULL instead of malloc(0) (do not trust the manual) | 1         |
